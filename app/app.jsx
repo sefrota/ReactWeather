@@ -9,6 +9,10 @@ var Examples = require('Examples');
 //Above is the same syntax as this. .Router, .IndexRoute, .hashHistory
 //var Route = require('react-router').Route;
 
+//Load Foundation
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
+
 ReactDOM.render(
 	<Router history={hashHistory}>
 		<Route path="/" component ={Main}>
