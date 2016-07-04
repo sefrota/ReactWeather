@@ -12,7 +12,7 @@ var React = require('react');
 
 var WMessage = ({location, temp}) => {
 	return (
-			<h3>It's {temp} degrees in {location}</h3>
+			<h3 className="text-center">It's {temp} degrees in {location}</h3>
 	);
 }
 
